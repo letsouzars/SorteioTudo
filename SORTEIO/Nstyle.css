@@ -1,1 +1,96 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff10;;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 60px;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
+}
+
+
+.titulo h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.entrada {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+.entrada label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.entrada input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+#sortear {
+  background-color: #7fae3d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#sortear:hover {
+  background-color: #badd73;
+}
+
+
+#resultado {
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+  background-size:100vw ;
+  margin: 0;
+  padding: 0;
+}
+
+
+.linha {
+  height: 2px;
+  background-color: white;
+  margin: 10px 0;
+}
