@@ -1,23 +1,100 @@
-/* Defina o estilo para o elemento pai (a seção de sorteio) */
-.sorteio {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
   }
-  
-  /* Estilize o contêiner interno para o formulário */
-  .formulario {
-    text-align: center;
+
+  .sorteio {
+    background-color: #ffffff10;;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
   }
   
-  /* Estilize o resultado */
-  .resultado {
-    text-align: center;
+ 
+  .sorteio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
   }
   
-  /* Estilize o botão */
+
+  .linha {
+    height: 2px;
+    background-color: #333;
+    margin: 10px 0;
+  }
+  
+
+  .formulario-container {
+    margin-top: 20px;
+  }
+  
+
+  label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+ 
+  #entradaNomes {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+
   .sortear {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
     margin-top: 10px;
+  }
+  
+  .sortear:hover {
+    background-color: #555;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+  }
+  
+ 
+  .resultado p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  .resultado p:empty {
+    display: none;
+  }
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url(cachorroFundo.jpg);
+    background-size:100vw ;
+    margin: 0;
+    padding: 0;
   }
